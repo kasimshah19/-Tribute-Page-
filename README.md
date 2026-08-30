@@ -1,61 +1,88 @@
-# WebDev-L2-TributePage — Dr. A. P. J. Abdul Kalam
+# 🚀 Dr. A.P.J. Abdul Kalam - Premium Interactive Tribute Page
 
-A premium 2026 tribute website celebrating the life and legacy of Dr. A. P. J. Abdul Kalam — India's Missile Man, beloved teacher, and 11th President.
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Deployment" />
+  <br />
+  <strong>A highly interactive, deeply respectful, and modern web experience honoring the "Missile Man of India". </strong>
+  <br /><br />
+  <h3>🌍 <a href="https://tribute-page-pink-ten.vercel.app">View Live Project on Vercel</a></h3>
+</div>
 
-## Preview
+<br/>
 
-Open `index.html` in your browser or serve locally:
+## 📖 Project Overview
 
-```bash
-python -m http.server 8080
-# Visit http://localhost:8080
+This project is a sophisticated, fully responsive, and animated tribute page dedicated to Dr. A.P.J. Abdul Kalam. Designed with precision to showcase advanced frontend capabilities without relying on heavy frameworks, it implements highly optimized **Vanilla CSS and JavaScript**. 
+
+The goal was to build a production-ready, performant static site showcasing advanced web concepts such as Intersection Observers for scroll animations, state management via localStorage (Dark/Light Theme), and mobile-first liquid layouts.
+
+## ✨ Key Features
+
+- **🌓 Dynamic Theme Toggling**: Integrated Light/Dark mode with user preference preserved via `localStorage`.
+- **🎬 Scroll-Driven Animations**: Leverages modern `IntersectionObserver` API to gracefully animate sections (fade-ins, slide-ups) as they enter the viewport.
+- **🔢 Animated Statistics Counters**: Dynamic numerical counters indicating achievements and milestones.
+- **📱 Mobile-First Responsive Design**: Fluid UI scaling gracefully from 320px mobile devices up to 4K desktop displays.
+- **🖼️ Video Modal & Image Gallery**: Interactive media features built purely with Vanilla JS ensuring zero third-party bloat.
+- **🚀 Advanced Accessibility & SEO**: Complete semantic HTML5 structure, WAI-ARIA roles, and rich metadata (OpenGraph, Schema.org) for search engine excellence.
+
+## 🛠️ Technology Stack
+
+- **Structure**: Semantic HTML5
+- **Styling**: Vanilla CSS3 (Custom Properties, Flexbox, CSS Grid)
+- **Typography**: Google Fonts (*Poppins, Inter, Space Grotesk*)
+- **Interactivity**: Vanilla JavaScript (ES6+)
+- **Deployment & Hosting**: Vercel CI/CD pipeline
+
+## 📂 Architecture & Project Structure
+
+The project follows a clean, modular structure typical of production-ready static assets:
+
+```text
+📦 Tribute-Page
+ ┣ 📂 assets
+ ┃ ┣ 📂 images (hero, gallery, books, medals, icons, avatars)
+ ┣ 📂 css
+ ┃ ┗ 📜 style.css
+ ┣ 📂 js
+ ┃ ┣ 📜 app.js
+ ┃ ┣ 📜 animation.js
+ ┃ ┣ 📜 navbar.js
+ ┃ ┗ 📜 theme.js
+ ┣ 📂 favicon
+ ┣ 📜 index.html
+ ┣ 📜 robots.txt
+ ┣ 📜 sitemap.xml
+ ┗ 📜 README.md
 ```
 
-## Sections
+## 💻 Local Installation & Setup
 
-1. Premium Navbar with dark mode & mobile menu
-2. Hero with portrait, rocket, India wave animation
-3. Information cards (Born, Birth Place, President, etc.)
-4. About with biography & 4 feature cards
-5. Interactive timeline (1931–2015)
-6. Achievements with Bharat Ratna medal
-7. Inspirational quotes
-8. Photo gallery (6 images)
-9. Animated statistics counters
-10. Contributions checklist with rocket
-11. Books section (4 covers)
-12. Testimonials slider
-13. FAQ accordion
-14. CTA banner
-15. Premium footer
+Want to run this project locally? 
 
-## Tech Stack
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/kasimshah19/-Tribute-Page-.git
+   ```
+2. **Navigate to the directory:**
+   ```bash
+   cd -Tribute-Page-
+   ```
+3. **Run a local development server:**
+   You can use VS Code Live Server extension or Python's built-in HTTP server:
+   ```bash
+   python -m http.server 8080
+   ```
+4. **View in Browser:**
+   Open `http://localhost:8080/`
 
-- HTML5, Vanilla CSS, Vanilla JavaScript
-- Google Fonts (Poppins, Inter, Space Grotesk)
-- No frameworks — fast, accessible, production-ready
+## 👨‍💻 Developed By
 
-## Features
+**Kasim Shah**
+- [GitHub Profile](https://github.com/kasimshah19)
 
-- Dark/light theme with localStorage
-- Scroll animations (Intersection Observer)
-- Animated counters, FAQ accordion, testimonial slider
-- Video modal, back to top, smooth scrolling
-- Full SEO (meta, OG, Twitter, Schema.org)
-- Mobile-first responsive (320px–1920px)
-
-## Project Structure
-
-```
-WebDev-L2-TributePage/
-├── index.html
-├── assets/images/hero|gallery|books|medals|icons|avatars/
-├── favicon/
-├── css/style.css
-├── js/app.js, animation.js, navbar.js, theme.js
-└── README.md
-```
-
----
-
-**Built with ❤️ Kasim Shah**
+<p align="center">
+  <em>Show some ❤️ by starring this repository!</em>
+</p>
